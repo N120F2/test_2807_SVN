@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" /> 
+    <title>Splits</title>   
+    <link rel="stylesheet" href="styles.css">
+    <script >
+      let scriptElement = document.createElement('script');
+      scriptElement.type = 'text/javascript';
+      scriptElement.src = 'index.js';
+      document.head.appendChild(scriptElement);</script>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root">  
+      <div class="container">
+        <form onsubmit="return false;" class="InputForm">
+          <label >Длина блока</label>
+          <input id="blockLength" type="text">
+          <button type="submit" id="save">Сохранить</button>
+          <button id="order">Упорядочить</button>
+          <div>
+            <label for="con2">Условие 2:</label>
+            <input id='con2' type="checkbox" la>
+          </div>
+          
+        </form>    
+        <div id="Splits" class="Splits">         
+        </div>
+      </div>   
+   
+    </div>
+  </body>
+  
+</html>
